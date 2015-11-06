@@ -1,0 +1,5 @@
+Schabowy 18,50
+Pizza 21,82
+Hamburger 12,40
+Zapiekanka 8,30
+Hot-Dog 6,70

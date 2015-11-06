@@ -1,12 +1,7 @@
 package pl.edu.pjwstk.s8132.pjp.second
 
-a = 'asia ma kota i psa'
-println a.substring(2)
-println a.substring(2)
-
 def eachTuple(Object iter, Closure c){
-    println iter instanceof Iterable
-    iter.collate(c.maximumNumberOfParameters).each{c(it)}
+    iter.toList().collate(c.maximumNumberOfParameters).each{c(it)}
 }
 
 def list = (1..40)
